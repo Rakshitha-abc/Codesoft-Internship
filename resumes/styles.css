@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f4f8;
+    color: #333;
+}
+
+h1, h2 {
+    margin: 0.5em 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background: #04b0ce;
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+}
+
+/* Navigation Styles */
+nav {
+    background: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: #0fbec4;
+    border-radius: 5px;
+}
+
+/* Card Section Styles */
+.card {
+    background: white;
+    border-radius: 8px;
+    padding: 2em;
+    margin: 2em 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 1em 0;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.skill-item {
+    background: #0cc6cc;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+/* Button Styles */
+.btn {
+    background: #0ac6cc;
+    color: white;
+    padding: 0.8em 2em;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.btn:hover {
+    background: #09b1a3;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+footer p {
+    margin: 0.5em 0;
+}
